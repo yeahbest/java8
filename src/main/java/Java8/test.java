@@ -1,11 +1,6 @@
+package Java8;
+
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.Month;
-import java.time.Period;
-import java.time.temporal.ChronoUnit;
 import java.util.stream.Stream;
 
 /**
@@ -18,7 +13,7 @@ public class test {
                 BufferedReader reader =
                         new BufferedReader
                                 (new InputStreamReader
-                                (test.class.getResourceAsStream("people.txt")))
+                                (test.class.getResourceAsStream("Java8/people.txt")))
 
                 ;)
         {

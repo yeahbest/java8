@@ -1,12 +1,9 @@
-import java.io.BufferedReader;
-import java.io.File;
+package Java8;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by Pawl on 3/22/2017.
