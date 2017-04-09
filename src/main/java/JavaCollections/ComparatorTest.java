@@ -1,5 +1,4 @@
-import com.intellij.psi.search.PsiReferenceProcessor;
-import com.siyeh.ig.psiutils.CollectionUtils;
+package JavaCollections;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -12,8 +11,8 @@ import java.util.function.Function;
  * Created by Krzysiek on 2017-04-01.
  */
 public class ComparatorTest {
-
     public static void main(String... args) {
+
 
         List<Developers> devList;
         List<Developers> devListt;
