@@ -1,4 +1,7 @@
+package Java8;
+
 import java.time.*;
+import java.time.temporal.ChronoUnit;
 
 /**
  * Created by Pawl on 3/22/2017.
@@ -21,8 +24,10 @@ public class TIME {
         LocalDate date2 = LocalDate.now();
 
         Period duration = date.until(date2);
+
         long s = duration.getYears();
         System.out.println(s);
+
 
 
     }

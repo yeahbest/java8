@@ -1,3 +1,5 @@
+package Java8;
+
 /**
  * Created by Pawl on 3/22/2017.
  */
