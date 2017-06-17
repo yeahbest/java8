@@ -45,6 +45,7 @@ public class Check {
         System.out.println("after removal");
         list.forEach(System.out::println);
         System.out.println("Trasformation");
+        list.replaceAll(ss->new Person(ss.getName().concat(" gowno"),ss.getAge()));
         list.replaceAll(p->new Person(p.getName().toUpperCase(),p.getAge()-5));
         System.out.println("After replacement");
         list.forEach(System.out::println);

@@ -20,11 +20,11 @@ public class SpliteratorCreation {
         Path path = Paths.get("C:\\Users\\Krzysiek\\Desktop\\java8\\src\\main\\java\\Java8_AdvancedStuff\\people.txt");
         try (Stream<String> lines = Files.lines(path)) {
 
-//            Spliterator<String>spliterator01 = lines.spliterator();
-////            Spliterator<Person>spliterator2= new spliterator2(spliterator01);
-//
-//            Stream<Person> people= StreamSupport.stream(spliterator2,false);
-//            people.forEach(System.out::println);
+            Spliterator<String> spliterator01 = lines.spliterator();
+            Spliterator<Person> spliterator2= new personSpliterator(spliterator01);
+
+            Stream<Person> people= StreamSupport.stream(spliterator2,false);
+            people.forEach(System.out::println);
 
         } catch (IOException e) {
             e.printStackTrace();
